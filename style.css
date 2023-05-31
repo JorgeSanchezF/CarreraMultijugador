@@ -1,0 +1,74 @@
+.container {
+    width: 624px;
+    height: 624px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: wheat;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.objetivo {
+    background-color: red;
+}
+
+.pl1 {
+    background-color: blue;
+}
+
+.pl2 {
+    background-color: yellow;
+}
+
+body {
+    display: flex;
+    background-image: url(imagen/f.elconfidencial.com_original_575_703_c55_575703c554a82581b104630219c77d36.jpg);
+    justify-content: flex-end;
+    margin-right: 55px;
+    margin-top: 55px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marcador {
+    display: flex;
+    width: 624px;
+    height: 624px;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    border: 2px solid black;
+}
+
+.player1 {
+    display: flex;
+    background-color: wheat;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.player {
+    display: flex;
+    background-color: wheat;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+button {
+    padding: 30px;
+    background-color: green;
+    border-radius: 2px solid red;
+}
